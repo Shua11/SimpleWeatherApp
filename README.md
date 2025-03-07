@@ -4,9 +4,9 @@ This is a weather app excercise. It can search for the current weather condition
 
 It uses [OpenWeatherMap](https://openweathermap.org/api) API.
 
-Demo app: [https://simple-weather-app-shua.vercel.app/](https://simple-weather-app-shua.vercel.app/)
+Live demo page: [https://simple-weather-app-shua.vercel.app/](https://simple-weather-app-shua.vercel.app/)
 
-## Getting Started
+## Running in development
 
 First, make sure you have dependancies installed:
 
@@ -14,10 +14,10 @@ First, make sure you have dependancies installed:
 npm i
 ```
 
-Update the ENV to use the correct enviorment variables:
+Update the ENV to use the correct enviorment variables: (create .env file in root)
 
 ```env
-NEXT_PUBLIC_OPENWEATHER_API_KEY=YOUR_API_KEY
+OPENWEATHERMAP_API_KEY=YOUR_API_KEY
 ```
 
 Then, run the development server:
@@ -27,6 +27,32 @@ npm run dev
 ```
 
 Fianlly, open [http://localhost:3000](http://localhost:3000) with your browser to see the result. If you have another service running on 3000 then you may need to double check what port the server is running on and switch to that.
+
+## Testing
+
+List of example city name inputs:
+
+* Bentonville
+* Denver
+* St. Louis
+
+List of example zip code inputs:
+
+* 80918
+* 72758
+* 12345
+
+List of example coordinate inputs:
+
+* 32.74, -117.15
+* 36.17, -115.14
+* 40.74, -111.87
+
+For unit testing run:
+
+```bash
+npm run test
+```
 
 ## Additional info
 
