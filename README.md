@@ -4,6 +4,8 @@ This is a weather app excercise. It can search for the current weather condition
 
 It uses [OpenWeatherMap](https://openweathermap.org/api) API.
 
+Demo app: [https://simple-weather-app-shua.vercel.app/](https://simple-weather-app-shua.vercel.app/)
+
 ## Getting Started
 
 First, make sure you have dependancies installed:
